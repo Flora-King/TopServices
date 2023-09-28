@@ -1,0 +1,24 @@
+/* general style */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    background-color: blueviolet;
+}
+
+/* main content */
+main {
+    background-color: bisque;
+}
+
+
+/* footer */
+
+footer{
+    background-color: brown;
+}
