@@ -128,7 +128,7 @@ main {
         display: none;
     }
     #logo {
-        font-size: 250%;
+        font-size: 210%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
@@ -142,5 +142,8 @@ main {
 @media screen and (min-width: 992px) {
     #menu-item a:hover {
         border-bottom: 1px solid red;
+    }
+    #logo {
+        font-size: 250%;
     }
 }
