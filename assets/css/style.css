@@ -27,8 +27,30 @@ header {
     box-shadow: 0 5px 2px #3a3a3a;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+#menu-item {
+    letter-spacing: 4px;
+    font-size: 110%;
+    list-style-type: none;
+}
+
+#menu-item > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid red;
 }
 /* main content */
 main {
