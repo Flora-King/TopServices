@@ -1,10 +1,10 @@
 ## TOP SERVICES
 
-Top Service is a fictious organisation made/set up for the purpose of the code Institute Assessment/project. None the less its website is much live and not fiction.
+Top Services is a fictious organisation made/set up for the purpose of the code Institute Assessment/project. 
 
-The Top Service website is a simple and very effective webiste aimed at customers looking to hire qualified professionals to carry out Gardening, Rubbish collection, Laundry, and House Keeping both in their homes or office.
+The Top Service website is a simple and very effective website aimed at customers looking to hire qualified professionals to carry out Gardening, Rubbish collection, Laundry, and House Keeping both in their homes or office.
 
-Users of this website are able to find out which services are provided by TOP Service; use the contact details provided to contact TOP service directly; and submit an enquiry using the Enquiry form.
+Users of this website are able to find out which services are provided by TOP Services, use the contact details provided and/or submit an enquiry using the Enquiry form.
 
 The live website can be found here [Top_service website]:https://flora-king.github.io/Top-Service/
 
@@ -14,8 +14,8 @@ The live website can be found here [Top_service website]:https://flora-king.gith
 
 ### Navigation
 
-* The navigation bar is fixed to the top. this way the user has access to the menu from all sections of the website.
-* The navigation bar houses links to the Home page; Enquiry Form page; Services section; and Contact Us section.
+* The navigation bar is fixed to the top. This way the user has access to the menu from all sections of the website.
+* The navigation bar houses links to the Home page and Enquiry Form page.
 * The Logo [TOP service] allows the user to easily navigate back to the top of the page as well as return to the Home page if in the Enquiry Form page.
 
 ![Navigation-Bar](https://user-images.githubusercontent.com/106548101/176719677-c2ffbe02-1f98-4eda-88a4-8c32b07357c4.png)
