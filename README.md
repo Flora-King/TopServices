@@ -81,17 +81,17 @@ The live website can be found here [Top Service](https://flora-king.github.io/To
 * Checked all images to ensure they all contain an “alt” text
 
 
-### Validator Testing
+### Code Validation
 
-* HTML
-    * The HTML code remains without errors after a few adjustments carried out following the validation reports generated prior to this one
+* W3C Html Validator
 
-<img width="1199" alt="W3_HTML_Validator" src="https://user-images.githubusercontent.com/106548101/176719310-510d802d-0947-4528-bd4f-d8e046d5503a.png">
+    * The HTML code remains without errors 
+
+![W3C Html Validator results](https://github.com/Flora-King/TopServices/assets/106548101/f0a6a902-d8f4-44f9-a8ab-1817154f1cd1)
 
 * CSS
-    * The CSS style code also remains without errors after a few adjustments carried out following the validation reports generated prior to this one
-
-<img width="1559" alt="W3_CSS_Validator" src="https://user-images.githubusercontent.com/106548101/176719359-ae79c542-9df9-4b80-9efe-1c0ccd6a4ddd.png">
+    * The CSS style code also remains without errors 
+    
 
 * Accessibility
  * I have validted that accessibility is good. My accessibility report shows a low perfomance report. This is due to the many font awesome icons i have used in this website.
