@@ -1,110 +1,140 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## TOP SERVICES
 
-Welcome Flora-King,
+Top Service is a fictious organisation made/set up for the purpose of the code Institute Assessment/project. None the less its website is much live and not fiction.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The Top Service website is a simple and very effective webiste aimed at customers looking to hire qualified professionals to carry out Gardening, Rubbish collection, Laundry, and House Keeping both in their homes or office.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Users of this website are able to find out which services are provided by TOP Service; use the contact details provided to contact TOP service directly; and submit an enquiry using the Enquiry form.
 
-## Gitpod Reminders
+The live website can be found here [Top_service website]:https://flora-king.github.io/Top-Service/
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features
 
-`python3 -m http.server`
+![Website_mockup](https://user-images.githubusercontent.com/106548101/176711522-a9c2dfec-753e-4276-94a9-bb8fb2d8a0a2.png)
 
-A blue button should appear to click: _Make Public_,
+### Navigation
 
-Another blue button should appear to click: _Open Browser_.
+* The navigation bar is fixed to the top. this way the user has access to the menu from all sections of the website.
+* The navigation bar houses links to the Home page; Enquiry Form page; Services section; and Contact Us section.
+* The Logo [TOP service] allows the user to easily navigate back to the top of the page as well as return to the Home page if in the Enquiry Form page.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Navigation-Bar](https://user-images.githubusercontent.com/106548101/176719677-c2ffbe02-1f98-4eda-88a4-8c32b07357c4.png)
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+### Home Page
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* The Home page has a hero image with cover text [statement of intent for TOP service] superimposed on top.
+* Users can easily and smoothly scroll up and down to different sections on the Home page [i.e. Services, Contact Us, and Footer] or the can use the navigation links  links set out in the  navigation bar.
+* I have also included two buttons 'FIND OUT MORE' and 'CONTACT US' for extra ease of use.
 
-To log into the Heroku toolbelt CLI:
+![Home_Page](https://user-images.githubusercontent.com/106548101/176719528-98a0ee0d-09fd-4e4b-91d6-0fc511f4a048.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Services section 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* In this section are the list of services provided by TOP Service
+* Each service header has an easy to intepret icon beside it plus the tasks that are part of that service listed below
 
-------
+![Services_Section](https://user-images.githubusercontent.com/106548101/176719673-60795dd0-837f-41ad-9f86-4ecd2aa0f497.png)
 
-## Release History
+### Contact Us section
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* This sections details all the various ways a customer can contact TOP service
+* I have used contact cards with a shadown underlay and transition to draw the user's attention the various cards
+* Customer can contact TOP service via email, telephone, and Post
 
-**September 20 2023:** Update Python version to 3.9.17.
+![Contact_Us](https://user-images.githubusercontent.com/106548101/176719669-bfab7894-15d9-4551-a3ae-bcd23e0b314c.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Footer   
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* The footer section includes links to TOP Service’s social media pages encouraging continued interaction.
+* All links open in a new tab. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Footer](https://user-images.githubusercontent.com/106548101/176719664-0ff976ef-65d7-4ca6-8143-e1b83cbac222.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Enquiry Page
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* This form allows the user to submit a detailed enquiry/query message regarding TOP Service’s services 
+* The user is also able to select multiple services they might be interested in and indicate their location before submitting the form
+* On clicking the submit button, an alert message is displayed to confirm the enquiry submission has been successful.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Enquiry-Form-page](https://user-images.githubusercontent.com/106548101/178159132-8e0127c7-974c-44a0-a6fe-5c6414bb1377.PNG) 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Testing
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### General test required
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* To confirm whether this website works in Chrome and Firefox (mobile and desktop versions).
+* To confirm the responsiveness of this website on all screen sizes using chrome dev tools.
+* To confirm that other users [other than myself] can read and understand the text throughout the website
+* To confirm that the enquiry form works, indicates required text and the submit button works.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#### Tests carried out
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+##### Functional Testing
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* Tested all links ensuring they are working as expected and make sure there are no broken links. 
+* This included the navigation links [Home, Services, Contact Us]
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+##### Usability Testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* Tested the site Navigation to ensure that the buttons or Links to different pages are easily visible and consistent on all webpages
+* Tested the Content:
+* Tested all content to ensure it is legible and without spelling or grammatical errors.
+* Checked all images to ensure they all contain an “alt” text
 
-------
 
-## FAQ about the uptime script
+### Validator Testing
 
-**Why have you added this script?**
+* HTML
+    * The HTML code remains without errors after a few adjustments carried out following the validation reports generated prior to this one
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+<img width="1199" alt="W3_HTML_Validator" src="https://user-images.githubusercontent.com/106548101/176719310-510d802d-0947-4528-bd4f-d8e046d5503a.png">
 
-**How will this affect me?**
+* CSS
+    * The CSS style code also remains without errors after a few adjustments carried out following the validation reports generated prior to this one
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+<img width="1559" alt="W3_CSS_Validator" src="https://user-images.githubusercontent.com/106548101/176719359-ae79c542-9df9-4b80-9efe-1c0ccd6a4ddd.png">
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+* Accessibility
+ * I have validted that accessibility is good. My accessibility report shows a low perfomance report. This is due to the many font awesome icons i have used in this website.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![Accessibility Report](https://user-images.githubusercontent.com/106548101/178159136-7760498c-b203-4f28-ae2a-1302027937c4.PNG)
 
-**So….?**
+### Bugs and Errors
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+#### Solved
+* I encountered a few errors in HTML and CSS during the build phase. For example, I had created a button inside the anchor tag. After seeing the error from the validation report, i adjusted my code.
 
-**Can I opt out?**
+* I encountered issues while building the services section layout. The service types were displaying as "two columns side-by-side and two rows" structure that I needed. I solved this by created an outer container to house all service types plus a container for each service type
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+#### Unsolved
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+* My accessibility report shows a low perfomance report. This is due to the many font awesome icons i have used in this website. 
 
-**Anything more?**
+## Deployment 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+The TOP-service website was deployed in GitHub. 
 
----
+* I created a github project, and followed provided instructions to apply the Code institute template 
+* Once the project finished rendering, i proceeded to write code for my project [TOP service] in gitpod 
 
-Happy coding!
+To publish/deploy my project, i followed these steps:
+1 navigate to github
+2 open project you want to publish/deploy
+3 navigate to settings
+4 open Github pages section
+5 Selected the [main] branch under source
+6 All done
+7 click on the link confirm your website is online
+
+
+The live website can be found here [Top_service website]: https://flora-king.github.io/Top-Service/
+
+## Credits
+* Code Institute - mentor and Tutor support were very helpful.
+* Reffered to documentation and examples on W3schools website.
+* Icons were downloaded free from Font Awesome website.
+* Reffered to stackoverflow website for various code query examples.
+* All images in this website were downloaded free from Pexels website.
+* I used Coolers website to find and learn about color palettes.
+* I also referred to Google fonts as well as Chrome Developer tools to text and view responsiveness.
