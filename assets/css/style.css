@@ -140,7 +140,6 @@ main {
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;
-    /* border: 2px solid white; */
     margin-bottom: 20px;
     width: 100%
 }
@@ -158,7 +157,6 @@ main {
 /* contact section */
 
 #contact-details {
-    /* background: url('../images/possible\ background.jpg') no-repeat center/cover; */
 
     display: flex;
     flex-wrap: wrap;
@@ -188,7 +186,6 @@ main {
 /*enquiry form*/
 
 #enquiry {
-    /* background-image: url("../images/signup-image.webp"); */
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -231,8 +228,8 @@ main {
     border-radius: 2px;
     padding: 0 5px;
 }
-.radio-buttons {
-    width: 100%;
+.checkbox {
+    width: 70%;
     display: flex;
     justify-content: space-between;
 }
@@ -256,16 +253,26 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background: url('../images/possible\ background.jpg') no-repeat center/cover;
+    background-color: #252525;
 }
 
 #social-links > i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #fafafa;
 }
 
-/* media queries */
+/* media queries start */
+
+@media screen and (min-width: 320px) {
+    .checkbox {
+        width: 150%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+}
 
 @media screen and (min-width: 768px){
     /* header */
@@ -302,10 +309,15 @@ main {
         right: 50px;
     }
 
-    /* #contact {
-        width: 50%;
+    /* enquiry form*/
+    
+    .checkbox {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
     }
-} */
+    
+} 
 
 /* larger devices [laptops and desktops of 992px plus] */
 @media screen and (min-width: 992px) {
@@ -341,27 +353,8 @@ main {
         align-self: flex-end;
     }
 
-    /* #services-image {
-        order: 0
-    } */
     #services-list div {
         margin-left: 80px;
     }
 }
-
-
-/* contact section */
-
-@media screen and (max-width: 1200px) {
-    #contact {
-        width: 40%;
-    }
-
-}
-
-@media screen and (max-width: 600px) {
-    #contact {
-        width: 90%;
-    }
-
-}
+/* media queries end*/
