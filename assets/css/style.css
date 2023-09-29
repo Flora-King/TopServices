@@ -193,19 +193,16 @@ main {
     margin-top: 100px;
 }
 
-
 .enquiry {
     color: #ffffff;
     background-color: rgba(33, 25, 25, 0.6);
     padding: 30px;
 }
 
-
 .enquiry >h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
-
 
 #enquiry-desc {
     background: transparent;
@@ -270,7 +267,6 @@ main {
         display: flex;
         justify-content: space-between;
     }
-    
 
 }
 
