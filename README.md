@@ -6,7 +6,8 @@ The Top Service website is a simple and very effective website aimed at customer
 
 Users of this website are able to find out which services are provided by TOP Services, use the contact details provided and/or submit an enquiry using the Enquiry form.
 
-The live website can be found here [Top Service](https://flora-king.github.io/TopServices/)
+* [Top Service live website](https://flora-king.github.io/TopServices/)
+* [GitHub Repository](https://github.com/Flora-King/TopServices.git)
 
 ## Features
 
