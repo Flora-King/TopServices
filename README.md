@@ -6,7 +6,7 @@ The Top Service website is a simple and very effective website aimed at customer
 
 Users of this website are able to find out which services are provided by TOP Services, use the contact details provided and/or submit an enquiry using the Enquiry form.
 
-The live website can be found here [Top_service website]:https://flora-king.github.io/Top-Service/
+The live website can be found here [Top Service](https://flora-king.github.io/TopServices/)
 
 ## Features
 
@@ -16,48 +16,46 @@ The live website can be found here [Top_service website]:https://flora-king.gith
 
 * The navigation bar is fixed to the top. This way the user has access to the menu from all sections of the website.
 * The navigation bar houses links to the Home page and Enquiry Form page.
-* The Logo [TOP service] allows the user to easily navigate back to the top of the page as well as return to the Home page if in the Enquiry Form page.
+* The Logo allows the user to easily navigate back to the top of the page as well as return to the Home page if in the Enquiry Form page.
 
-![Navigation-Bar](https://user-images.githubusercontent.com/106548101/176719677-c2ffbe02-1f98-4eda-88a4-8c32b07357c4.png)
+![Navigation bar](https://github.com/Flora-King/TopServices/assets/106548101/45941b9e-a743-4034-9065-53a8df58a9a5)
 
 
 ### Home Page
 
-* The Home page has a hero image with cover text [statement of intent for TOP service] superimposed on top.
-* Users can easily and smoothly scroll up and down to different sections on the Home page [i.e. Services, Contact Us, and Footer] or the can use the navigation links  links set out in the  navigation bar.
-* I have also included two buttons 'FIND OUT MORE' and 'CONTACT US' for extra ease of use.
+* The Home page has a hero image with cover text [statement of intent] superimposed on top.
+* Users can easily and smoothly scroll up and down to different sections on the Home page [i.e. Services, Contact Us, and Footer].
 
-![Home_Page](https://user-images.githubusercontent.com/106548101/176719528-98a0ee0d-09fd-4e4b-91d6-0fc511f4a048.png)
+![Home_Page](https://github.com/Flora-King/TopServices/assets/106548101/a424cf1f-94ff-426e-ad67-9fe0196b1fce)
 
 ### Services section 
 
-* In this section are the list of services provided by TOP Service
+* In this section are the list of services provided by TOP Services
 * Each service header has an easy to intepret icon beside it plus the tasks that are part of that service listed below
 
-![Services_Section](https://user-images.githubusercontent.com/106548101/176719673-60795dd0-837f-41ad-9f86-4ecd2aa0f497.png)
+![Services section](https://github.com/Flora-King/TopServices/assets/106548101/ebb2a965-6b83-46ce-aa49-010c083782e9)
 
 ### Contact Us section
 
-* This sections details all the various ways a customer can contact TOP service
-* I have used contact cards with a shadown underlay and transition to draw the user's attention the various cards
+* This sections details all the various ways a customer can contact TOP services
 * Customer can contact TOP service via email, telephone, and Post
 
-![Contact_Us](https://user-images.githubusercontent.com/106548101/176719669-bfab7894-15d9-4551-a3ae-bcd23e0b314c.png)
+![Contact Us section](https://github.com/Flora-King/TopServices/assets/106548101/1de67ad6-407e-492d-8631-859950242dff)
 
 ### Footer   
 
-* The footer section includes links to TOP Service’s social media pages encouraging continued interaction.
+* The footer section includes links to social media pages encouraging continued interaction.
 * All links open in a new tab. 
 
-![Footer](https://user-images.githubusercontent.com/106548101/176719664-0ff976ef-65d7-4ca6-8143-e1b83cbac222.png)
+![Footer](https://github.com/Flora-King/TopServices/assets/106548101/85646efd-c22e-4b35-a247-38720c83eca8)
 
 ### Enquiry Page
 
-* This form allows the user to submit a detailed enquiry/query message regarding TOP Service’s services 
+* This form allows the user to submit a detailed enquiry/query message 
 * The user is also able to select multiple services they might be interested in and indicate their location before submitting the form
 * On clicking the submit button, an alert message is displayed to confirm the enquiry submission has been successful.
 
-![Enquiry-Form-page](https://user-images.githubusercontent.com/106548101/178159132-8e0127c7-974c-44a0-a6fe-5c6414bb1377.PNG) 
+![Enquiry Page](https://github.com/Flora-King/TopServices/assets/106548101/2a609b37-5335-4aff-a526-b28742881691)
 
 ## Testing
 
@@ -72,8 +70,8 @@ The live website can be found here [Top_service website]:https://flora-king.gith
 
 ##### Functional Testing
 
-* Tested all links ensuring they are working as expected and make sure there are no broken links. 
-* This included the navigation links [Home, Services, Contact Us]
+* Tested all links ensuring they are working as expected and made sure there are no broken links. 
+* This included the navigation links 
 
 ##### Usability Testing
 

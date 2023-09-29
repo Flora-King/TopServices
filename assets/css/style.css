@@ -92,7 +92,7 @@ nav {
 main {
     flex: 1 auto;
     margin-top: 47px;
-    background: url('../images/possible\ background.jpg') no-repeat center/cover;
+    background: url('../images/possible-background.avif') no-repeat center/cover;
 }
 
 /* Hero image */
@@ -100,7 +100,7 @@ main {
 #hero-image {
     height: 700px;
     width: 100%;
-    background: url("../images/pexels-karolina.jpg") no-repeat center center/cover;
+    background: url("../images/pexels-karolina.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -192,7 +192,7 @@ main {
 }
 
 #enquiry-main {
-    background: url("../images/pexels-karolina.jpg") no-repeat center center/cover;
+    background: url("../images/pexels-karolina.webp") no-repeat center center/cover;
     background-size: cover;
 }
 
