@@ -116,6 +116,34 @@ main {
     color: #ffffff;
     text-align: center;
 }
+
+/* services section */
+
+#services {
+    margin: 20px auto;
+    width: 90%;
+}
+
+#services h2 {
+    font-size: 280%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#services-list h3 {
+    line-height: 20px;
+}
+
+#services-list-one>div, #services-list-two>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#services-list p {
+    padding: 0 10px;
+}
+
+
 /* footer */
 
 #social-links {
