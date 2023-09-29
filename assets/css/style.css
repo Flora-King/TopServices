@@ -196,13 +196,13 @@ main {
     background-size: cover;
 }
 
-.enquiry {
+.enquiry-form {
     color: #ffffff;
-    background-color: rgba(33, 25, 25, 0.7);
+    background-color: rgba(33, 25, 25, 0.6);
     padding: 30px;
 }
 
-.enquiry >h2 {
+.enquiry > h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }

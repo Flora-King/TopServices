@@ -10,7 +10,7 @@ The live website can be found here [Top Service](https://flora-king.github.io/To
 
 ## Features
 
-![Website_mockup](https://user-images.githubusercontent.com/106548101/176711522-a9c2dfec-753e-4276-94a9-bb8fb2d8a0a2.png)
+![Website Responsiveness](https://github.com/Flora-King/TopServices/assets/106548101/4b70403a-6254-41da-9036-51ee8f0c50de)
 
 ### Navigation
 
@@ -20,18 +20,17 @@ The live website can be found here [Top Service](https://flora-king.github.io/To
 
 ![Navigation bar](https://github.com/Flora-King/TopServices/assets/106548101/45941b9e-a743-4034-9065-53a8df58a9a5)
 
-
 ### Home Page
 
 * The Home page has a hero image with cover text [statement of intent] superimposed on top.
-* Users can easily and smoothly scroll up and down to different sections on the Home page [i.e. Services, Contact Us, and Footer].
+* Users can easily and smoothly scroll up and down to different sections on the Home page [i.e., Services, Contact Us, and Footer].
 
 ![Home_Page](https://github.com/Flora-King/TopServices/assets/106548101/a424cf1f-94ff-426e-ad67-9fe0196b1fce)
 
 ### Services section 
 
 * In this section are the list of services provided by TOP Services
-* Each service header has an easy to intepret icon beside it plus the tasks that are part of that service listed below
+* Each service header has an easy to interpret icon beside it plus the tasks that are part of that service listed below
 
 ![Services section](https://github.com/Flora-King/TopServices/assets/106548101/ebb2a965-6b83-46ce-aa49-010c083782e9)
 
@@ -70,69 +69,85 @@ The live website can be found here [Top Service](https://flora-king.github.io/To
 
 ##### Functional Testing
 
-* Tested all links ensuring they are working as expected and made sure there are no broken links. 
-* This included the navigation links 
+* Tested all links are working as intended
+
+* Tested that the user has the ability to scroll up and down to see content where necessary
+* Confirmed that there were no spelling mistakes 
 
 ##### Usability Testing
 
-* Tested the site Navigation to ensure that the buttons or Links to different pages are easily visible and consistent on all webpages
-* Tested the Content:
-* Tested all content to ensure it is legible and without spelling or grammatical errors.
-* Checked all images to ensure they all contain an “alt” text
-
+* Tested the site Navigation to ensure that the Links to different pages are easily visible and consistent on all webpages
+* Tested the Content to ensure it is legible and without spelling or grammatical errors.
+* Checked all images to ensure they all contain an “alt” text where necessary
 
 ### Code Validation
 
-* W3C Html Validator
+* **W3C Html Validator**
 
     * The HTML code remains without errors 
 
 ![W3C Html Validator results](https://github.com/Flora-King/TopServices/assets/106548101/f0a6a902-d8f4-44f9-a8ab-1817154f1cd1)
 
-* CSS
+* **W3C CSS Validator**
+
     * The CSS style code also remains without errors 
-    
 
-* Accessibility
- * I have validted that accessibility is good. My accessibility report shows a low perfomance report. This is due to the many font awesome icons i have used in this website.
+![W3C CSS Validator](https://github.com/Flora-King/TopServices/assets/106548101/cc48d9c0-68fe-4f09-8cb1-491a7e049841)
 
-![Accessibility Report](https://user-images.githubusercontent.com/106548101/178159136-7760498c-b203-4f28-ae2a-1302027937c4.PNG)
+* **Lighthouse validation**
+
+**Lighthouse results on desktop – Home page**
+
+![Lighthouse results on desktop – Home page](https://github.com/Flora-King/TopServices/assets/106548101/3e629775-df5e-4d19-9e99-1dabe9ff7a44)
+
+
+**Lighthouse results on desktop – Enquiry page**
+
+![Lighthouse results on desktop – Enquiry page](https://github.com/Flora-King/TopServices/assets/106548101/cb18c2b9-7b86-4ad0-9ce6-bd7852cc8ac4)
+
+**Lighthouse results on mobile – Home page**
+
+![Lighthouse results on mobile – Home page](https://github.com/Flora-King/TopServices/assets/106548101/ac5e8fd2-2693-42e4-87ee-574920d0d3ef)
+
+
+**Lighthouse results on mobile – Enquiry page**
+
+![Lighthouse results on mobile – Enquiry page](https://github.com/Flora-King/TopServices/assets/106548101/cbcfc885-ade6-461c-8f87-efd9f01a236a)
 
 ### Bugs and Errors
 
 #### Solved
-* I encountered a few errors in HTML and CSS during the build phase. For example, I had created a button inside the anchor tag. After seeing the error from the validation report, i adjusted my code.
+1. * The main issue i encountered was making the services section responsive on all devices. The service types were displaying as "two columns side-by-side and two rows" structure that I needed.
 
-* I encountered issues while building the services section layout. The service types were displaying as "two columns side-by-side and two rows" structure that I needed. I solved this by created an outer container to house all service types plus a container for each service type
+    - **solution** - i decided to apply a combination of flex box and media queries in css and it worked
+
+2. * The issue i encountered was making the submit button work in the enquiry form
+    - **solution** - 
 
 #### Unsolved
 
-* My accessibility report shows a low perfomance report. This is due to the many font awesome icons i have used in this website. 
+* There are no bugs/issued unresolved at the moment
 
 ## Deployment 
 
-The TOP-service website was deployed in GitHub. 
+The TOP services website was deployed in GitHub. 
 
-* I created a github project, and followed provided instructions to apply the Code institute template 
-* Once the project finished rendering, i proceeded to write code for my project [TOP service] in gitpod 
+* I created a GitHub project, applying the Code institute template  
 
-To publish/deploy my project, i followed these steps:
-1 navigate to github
-2 open project you want to publish/deploy
-3 navigate to settings
-4 open Github pages section
-5 Selected the [main] branch under source
-6 All done
-7 click on the link confirm your website is online
-
-
-The live website can be found here [Top_service website]: https://flora-king.github.io/Top-Service/
+* To publish/deploy my project, I followed these steps:
+1. Navigate to GitHub
+2. Open project you want to publish/deploy
+3. Navigate to settings
+4. Open GitHub pages section
+5. Select the [main] branch under source
+6. Save
+7. click on the link confirm your website is live
 
 ## Credits
-* Code Institute - mentor and Tutor support were very helpful.
-* Reffered to documentation and examples on W3schools website.
-* Icons were downloaded free from Font Awesome website.
-* Reffered to stackoverflow website for various code query examples.
+* Code Institute - my mentor and tutors provided a lot of guidance and support.
+* Referred to documentation and examples on W3schools website.
+* I downloaded icons free from Font Awesome website.
+* Referred to stackoverflow website for various code and query examples.
+* Followed the Love running walkthrough tutorial 
 * All images in this website were downloaded free from Pexels website.
-* I used Coolers website to find and learn about color palettes.
-* I also referred to Google fonts as well as Chrome Developer tools to text and view responsiveness.
+* I also referred to Google fonts as well as Chrome Developer tools to test and view responsiveness.
