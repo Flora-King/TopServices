@@ -6,14 +6,14 @@
     <meta name="description" content="services, top service, gardening, london, rubbish collection, rubbish, laundry services, laundry, house keeping, keeping">
     
     <!-- Page title -->
-    <title>Top Service</title>
+    <title>Top Services</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <!-- Header -->
     <header>
         <a href="index.html">
-            <h1 id="logo">Top Service</h1>
+            <h1 id="logo">Top Services</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
@@ -42,14 +42,14 @@
                 <input type="email" id="email" class="text-input" name="email-address" required autocomplete="off">
                 <input type="radio" class="radio"  id="gardening" name="service-type" value="gardening">
                 <label for="gardening">Gardening</label>
-                <input type="radio" class="radio" id="baby-sitting" name="service-type" value="baby-sitting" >
+                <input type="checkbox" class="checkbox" id="baby-sitting" name="service-type" value="baby-sitting" >
                 <label for="baby-sitting">Baby Sitting</label>
-                <input type="radio" class="radio" id="laundry" name="service-type" value="laundry">
+                <input type="checkbox" class="checkbox" id="laundry" name="service-type" value="laundry">
                 <label for="laundry">Laundry Services</label>
-                <input type="radio" class="radio" id="house-keeping" name="service-type" value="house-keeping">
+                <input type="checkbox" class="checkbox" id="house-keeping" name="service-type" value="house-keeping">
                 <label for="house-keeping">House Keeping</label>
                 <br>
-                <!--<label for="enquiry-desc">Enquiry Details</label>-->
+                <label for="enquiry-desc">Enquiry Details</label>
                 <textarea name="enquiry-desc" id="enquiry-desc" cols="80" rows="13">Add your enquiry details here</textarea>
                 <br>
                 <label for="location">Your location</label>
@@ -61,8 +61,8 @@
                     <option value="east-sussex">East Sussex</option>
                 </select>
                 <br>
-            <button id="btn" type="button" onclick="">Submit</button>
-            
+            <!-- <button id="btn" type="submit" onclick="https://formdump.codeinstitute.net/">Submit</button> -->
+            <button id="btn" type="submit" class="join-button">Submit</button>
             </form>
         </div>
     </section>
