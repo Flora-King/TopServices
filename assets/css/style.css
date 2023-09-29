@@ -186,12 +186,11 @@ main {
 /*enquiry form*/
 
 #enquiry {
-    background: url("../images/pexels-karolina.jpg") no-repeat center center/cover;
-    background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
-    margin-top: 100px;
+    margin-top: 70px;
+    margin-bottom: 30px;
 }
 
 #enquiry-main {
@@ -247,7 +246,9 @@ main {
     color: #fafafa;
 }
 
-
+.enquiry-form p {
+    padding-bottom: 5%;
+}
 /* footer */
 
 #social-links {
